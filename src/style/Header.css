@@ -1,0 +1,60 @@
+.header {
+    background-color: #0a0a23;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    width: 100%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar
+    {
+      padding: 5px 10px 5px 30px;
+      width: 200px;
+      border-radius: 4px;
+      border: 1px solid #ccc,
+  }
+  .logo {
+    color: white;
+    font-size: 31px;
+  }
+  .logo-link {
+    text-decoration: none;
+  }
+
+  .menu-signin{
+    display: flex;
+    align-items: center;
+  }  
+  .menu {
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    margin-right: 5px;
+  }
+  
+  .signin-link {
+    text-decoration: none;
+  }
+  
+  .signin-btn {
+    background-color: #f0ad4e;
+    color: black;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .fa-search{
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color:#888;
+  }

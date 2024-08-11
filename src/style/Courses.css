@@ -1,0 +1,48 @@
+.courses-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+  blockquote span {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 1em;
+  }
+  
+  .tittle-duration{
+    border:3px solid black;
+    margin: 10px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8585855c;
+  }
+
+  .courses-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .course-item {
+    width: 70%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #f8f8f8;
+  }
+  
